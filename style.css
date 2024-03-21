@@ -1,0 +1,136 @@
+body#main-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul.menu li.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul.menu li.menu-item a:hover {
+    color: aquamarine;
+}
+
+h1#welcome-title {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p.intro {
+    color: #666;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2.section-title {
+    color: black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+    border-bottom: 2px solid aquamarine;
+}
+
+p.description, p.contact-info {
+    color: #666;
+    font-size: 1em;
+    margin-left: 10px;
+    text-align: center;
+}
+
+ul.project-list, ul.skill-list, ul.education-list, ul.experience-list, ul.interest-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.project-list li, ul.skill-list li, ul.education-list li, ul.experience-list li, ul.interest-list li {
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-picture img {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#contact-form input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #444;
+}
